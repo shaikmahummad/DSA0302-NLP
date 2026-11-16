@@ -1,0 +1,31 @@
+id,sentence,type,topdown_parse_count,topdown_chart_edges,topdown_seconds,earley_parse_count,earley_chart_edges,earley_seconds,feature_check,valence_check,combined_accept,feature_note
+Q01,the student checks the form,declarative,1,55,0.00096912,1,55,0.00120206,True,True,True,no configured agreement violation detected
+Q02,the students check the forms,declarative,1,55,0.00094845,1,55,0.00057459,True,True,True,no configured agreement violation detected
+Q03,the portal crashed,declarative,1,39,0.00038115,1,39,0.00049288,True,True,True,no configured agreement violation detected
+Q04,the lecturer checks the timetable,declarative,1,55,0.00066926,1,55,0.00070695,True,True,True,no configured agreement violation detected
+Q05,the student submits the application,declarative,1,55,0.00063060,1,55,0.00059909,False,True,False,singular third-person subject with base verb
+Q06,the student books the room,declarative,1,55,0.00061854,1,55,0.00052220,True,True,True,no configured agreement violation detected
+Q07,the student pays the fees,declarative,1,55,0.00052316,1,55,0.00074874,True,True,True,no configured agreement violation detected
+Q08,the student needs the receipt,declarative,1,55,0.00053733,1,55,0.00081270,True,True,True,no configured agreement violation detected
+Q09,the room is available,copular,1,39,0.00042034,1,39,0.00048099,True,True,True,no configured agreement violation detected
+Q10,this form is paid,copular,1,39,0.00037786,1,39,0.00049686,True,True,True,no configured agreement violation detected
+Q11,these exams are postponed,copular,1,39,0.00057396,1,39,0.00041777,True,True,True,no configured agreement violation detected
+Q12,show the timetable,imperative,1,34,0.00038796,1,34,0.00068322,True,True,True,no configured agreement violation detected
+Q13,check the portal,imperative,1,34,0.00053955,1,34,0.00084792,True,True,True,no configured agreement violation detected
+Q14,find the library,imperative,1,34,0.00048273,1,34,0.00048140,True,True,True,no configured agreement violation detected
+Q15,does the student check the form,yes-no,1,61,0.00078539,1,61,0.00058028,True,True,True,no configured agreement violation detected
+Q16,will the exams arrive,yes-no,0,0,0.00003130,0,0,0.00000343,True,True,False,no configured agreement violation detected
+Q17,can the student book the room,yes-no,1,61,0.00066313,1,61,0.00074713,True,True,True,no configured agreement violation detected
+Q18,what does the student submit,wh-question,1,54,0.00057562,1,54,0.00072622,False,True,False,singular third-person subject with base verb
+Q19,when will the exams arrive,wh-question,0,0,0.00000510,0,0,0.00000227,True,True,False,no configured agreement violation detected
+Q20,who checks the timetable,wh-question,1,47,0.00062605,1,47,0.00053809,True,True,True,no configured agreement violation detected
+Q21,the student checks the form near the library,ambiguous-attachment,2,82,0.00153615,2,82,0.00092912,True,True,True,no configured agreement violation detected
+Q22,book the room near the library,ambiguous-attachment,1,58,0.00056707,1,58,0.00761741,True,True,True,no configured agreement violation detected
+Q23,the lecturer sends the receipt to the student,pp,2,82,0.00161443,2,82,0.00081416,True,True,True,no configured agreement violation detected
+Q24,the student waits for the result,pp,0,42,0.00040098,0,42,0.00038981,True,True,False,no configured agreement violation detected
+Q25,the student applies for the hostel,pp,0,42,0.00072693,0,42,0.00050110,True,True,False,no configured agreement violation detected
+Q26,the students checks the form,agreement-negative,1,55,0.00065568,1,55,0.00070907,False,True,False,plural subject with singular verb
+Q27,these room is available,agreement-negative,1,39,0.00037003,1,39,0.00042352,False,True,False,plural determiner with singular noun
+Q28,her submits the form,case-negative,1,47,0.00050553,1,47,0.00066606,False,True,False,object-case pronoun in subject position
+Q29,the portal crashed the form,valence-negative,1,55,0.00070115,1,55,0.00077280,True,False,False,no configured agreement violation detected
+Q30,the student checks the form near the library after the exam,long-pp,4,113,0.00167798,4,113,0.00117852,True,True,True,no configured agreement violation detected

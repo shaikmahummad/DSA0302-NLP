@@ -1,0 +1,8 @@
+DSA03 NLP Assignment 3 package
+
+1. Completed written report (.docx)
+2. README with setup/run instructions
+3. Python parser implementation
+4. requirements.txt
+5. 30-query test set
+6. Results directory (generated on execution)

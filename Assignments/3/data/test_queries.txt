@@ -1,0 +1,30 @@
+Q01 the student checks the form
+Q02 the students check the forms
+Q03 the portal crashed
+Q04 the lecturer checks the timetable
+Q05 the student submits the application
+Q06 the student books the room
+Q07 the student pays the fees
+Q08 the student needs the receipt
+Q09 the room is available
+Q10 this form is paid
+Q11 these exams are postponed
+Q12 show the timetable
+Q13 check the portal
+Q14 find the library
+Q15 does the student check the form
+Q16 will the exams arrive
+Q17 can the student book the room
+Q18 what does the student submit
+Q19 when will the exams arrive
+Q20 who checks the timetable
+Q21 the student checks the form near the library
+Q22 book the room near the library
+Q23 the lecturer sends the receipt to the student
+Q24 the student waits for the result
+Q25 the student applies for the hostel
+Q26 the students checks the form
+Q27 these room is available
+Q28 her submits the form
+Q29 the portal crashed the form
+Q30 the student checks the form near the library after the exam

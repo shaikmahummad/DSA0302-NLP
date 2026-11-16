@@ -1,0 +1,6 @@
+probability=0.00027783
+(S
+  (NP (DET the) (N student))
+  (VP
+    (VP (V book) (NP (DET the) (N room)))
+    (PP (P near) (NP (DET the) (N library))))) (p=0.00027783)
