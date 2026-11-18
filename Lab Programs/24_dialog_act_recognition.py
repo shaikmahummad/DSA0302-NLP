@@ -24,7 +24,7 @@ def recognize_dialog_act(sentence):
     elif re.search(r'\b(yes|yeah|sure|okay|ok)\b', sentence):
         return "Agreement"
 
-    elif re.search(r'\b(no|never|don't|cannot|can't)\b', sentence):
+    elif re.search(r"\b(no|never|don't|cannot|can't)\b", sentence):
         return "Disagreement"
 
     else:
