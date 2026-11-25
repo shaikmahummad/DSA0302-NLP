@@ -1,0 +1,215 @@
+{
+  "seed": 7,
+  "reports": 1200,
+  "report_tokens": 69160,
+  "multi_sentence_reports": 1200,
+  "cross_sentence_reference_rate": 1.0,
+  "sample_segments": [
+    {
+      "text": "The road at River Road is closed.",
+      "cue": null,
+      "unit": "assertion"
+    },
+    {
+      "text": "It remains unsafe for buses.",
+      "cue": null,
+      "unit": "assertion"
+    },
+    {
+      "text": "Police have opened a diversion.",
+      "cue": null,
+      "unit": "assertion"
+    },
+    {
+      "text": "Control room staff recorded this update and asked residents to follow verified district announcements.",
+      "cue": null,
+      "unit": "assertion"
+    },
+    {
+      "text": "Do not cross barricades or enter moving water while response teams inspect the affected location.",
+      "cue": null,
+      "unit": "assertion"
+    },
+    {
+      "text": "Officials will publish another status update after field verification is completed.",
+      "cue": null,
+      "unit": "assertion"
+    }
+  ],
+  "sample_hobbs_trace": [
+    {
+      "pronoun": "It",
+      "sentence": 1,
+      "candidate_order": [
+        "River Road",
+        "The",
+        "road at River"
+      ],
+      "antecedent": "River Road"
+    },
+    {
+      "pronoun": "this",
+      "sentence": 3,
+      "candidate_order": [
+        "Police",
+        "diversion",
+        "It",
+        "River Road",
+        "The",
+        "road at River"
+      ],
+      "antecedent": "Police"
+    }
+  ],
+  "sample_centering": [
+    {
+      "sentence": "The road at River Road is closed.",
+      "Cf": [
+        "road",
+        "river"
+      ],
+      "Cb": null,
+      "transition": "Start"
+    },
+    {
+      "sentence": "It remains unsafe for buses.",
+      "Cf": [],
+      "Cb": null,
+      "transition": "Shift"
+    },
+    {
+      "sentence": "Police have opened a diversion.",
+      "Cf": [],
+      "Cb": null,
+      "transition": "Shift"
+    },
+    {
+      "sentence": "Control room staff recorded this update and asked residents to follow verified district announcements.",
+      "Cf": [],
+      "Cb": null,
+      "transition": "Shift"
+    },
+    {
+      "sentence": "Do not cross barricades or enter moving water while response teams inspect the affected location.",
+      "Cf": [],
+      "Cb": null,
+      "transition": "Shift"
+    },
+    {
+      "sentence": "Officials will publish another status update after field verification is completed.",
+      "Cf": [],
+      "Cb": null,
+      "transition": "Shift"
+    }
+  ],
+  "sample_entity_grid": {
+    "grid": [
+      {
+        "bridge": "-",
+        "road": "S",
+        "camp": "-",
+        "shelter": "-",
+        "river": "S"
+      },
+      {
+        "bridge": "-",
+        "road": "-",
+        "camp": "-",
+        "shelter": "-",
+        "river": "-"
+      },
+      {
+        "bridge": "-",
+        "road": "-",
+        "camp": "-",
+        "shelter": "-",
+        "river": "-"
+      },
+      {
+        "bridge": "-",
+        "road": "-",
+        "camp": "-",
+        "shelter": "-",
+        "river": "-"
+      },
+      {
+        "bridge": "-",
+        "road": "-",
+        "camp": "-",
+        "shelter": "-",
+        "river": "-"
+      },
+      {
+        "bridge": "-",
+        "road": "-",
+        "camp": "-",
+        "shelter": "-",
+        "river": "-"
+      }
+    ],
+    "transitions": {
+      "--": 23,
+      "S-": 2
+    }
+  },
+  "dialogues": 300,
+  "dialogue_act_classifier": {
+    "accuracy": 1.0,
+    "labels": [
+      "INFORM",
+      "PROVIDE_SLOT",
+      "REQUEST_INFO",
+      "THANK"
+    ],
+    "confusion_matrix": [
+      [
+        75,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        75,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        75,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        75
+      ]
+    ]
+  },
+  "frame_trace": [
+    {
+      "location": "Market Road and need wheelchair access",
+      "accessibility": "wheelchair"
+    },
+    "I will check verified open relief camps near Market Road and need wheelchair access."
+  ],
+  "generated_bulletin": "East Bridge is closed.",
+  "ibm1_demo": {
+    "fractional_counts": {
+      "சாலை|road": 0.5,
+      "சாலை|closed": 0.5,
+      "மூடப்பட்டது|road": 0.5,
+      "மூடப்பட்டது|closed": 0.5
+    },
+    "probabilities": {
+      "சாலை|road": 0.5,
+      "சாலை|closed": 0.5,
+      "மூடப்பட்டது|road": 0.5,
+      "மூடப்பட்டது|closed": 0.5
+    }
+  },
+  "runtime_seconds": 3.2469,
+  "memory_peak_bytes": 52107266
+}
